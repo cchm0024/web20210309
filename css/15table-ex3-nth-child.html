@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    p:nth-child(1){
+        background-color: blue;
+    }
+    P:nth-child(2){
+        background-color: green;
+    }
+    p:nth-child(odd){
+        text-decoration: underline;
+    }
+    p:nth-child(even) {
+        font-weight: bold;
+    }
+    table, th, td {
+        border: 1px solid black
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td{
+        height: 30px;
+    }
+    tr:nth-child(even){
+        background-color: #ccc;
+    }
+
+</style>
+</head>
+<body>
+<!-- tiv>p*5>lorem -->
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, cupiditate asperiores. Quidem sed ipsum et earum quo molestiae perspiciatis delectus dicta, facilis iusto, voluptatibus veritatis exercitationem sit? Veniam, incidunt voluptas?</p>
+    <p>Dolor dolorem, repudiandae corporis adipisci quo excepturi nemo autem aspernatur consequuntur libero sit tempora ipsam magni qui numquam aliquam expedita voluptates. Obcaecati natus consequuntur placeat porro, distinctio eos ut laboriosam?</p>
+    <p>Molestias fugiat suscipit iure neque ipsum, officia delectus, maiores, laudantium odio esse praesentium ad. Itaque ipsam exercitationem mollitia, dolorum neque quis, tenetur illum nulla voluptatum ipsum nemo amet, consectetur ab?</p>
+    <p>In veniam debitis sit sed provident itaque aliquam vero voluptatem. Asperiores numquam distinctio, excepturi ipsam magni nobis nostrum id et! Alias corrupti incidunt est eius nihil tenetur enim mollitia dolorum!</p>
+    <p>Temporibus fugit similique cumque labore modi illum soluta ullam voluptas sed vero omnis eaque molestias eos rem velit voluptate adipisci voluptates laborum impedit nemo, aliquam officiis nesciunt dolorum. Architecto, voluptate.</p>
+</div>
+<!-- table>tr>th*3>lorem1^^tr*4>td*3>lorem1 -->
+<table>
+    <tr>
+        <th>Lorem.</th>
+        <th>Eligendi.</th>
+        <th>Tenetur.</th>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Repudiandae.</td>
+        <td>Quod!</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Velit.</td>
+        <td>Libero.</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Inventore?</td>
+        <td>Velit!</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Modi?</td>
+        <td>Aspernatur?</td>
+    </tr>
+</table>
+</body>
+</html>
