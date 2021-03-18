@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/all.min.css">
+
+<head>
+    <style>
+    </style>
+</head>
+
+<body>
+    <button onclick="changeImage(document.getElementById('buttom1'))" id="buttom1">dog</button>
+    <button onclick="changeImage(this)" id="buttom2">cat</button>
+    <button onclick="changeImage(this)" id="buttom3">Captain</button>
+    <button onclick="changeImage(this)" id="buttom4">Harlequin</button>
+<HR>
+    <img src="" alt="" id="img1">
+
+    <script>
+        function changeImage(elem) {
+            document.getElementById("img1").src = elem.innerHTML + ".jpg";
+        }
+    </script>
+
+
+
+
+
+</body>
+<html>
