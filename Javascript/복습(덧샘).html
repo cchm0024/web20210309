@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+<input type="text" id="text1">
+<br>
+<p><i class="fas fa-plus"></i></p>
+<br>
+<input type="text" id="text2">
+<br>
+<button onclick="pes()"><i class="fas fa-equals"></i>
+
+</button>
+<br>
+<input type="text" id="text3" readonly>
+<br>
+
+<script>
+function pes(params) {
+    var a = document.getElementById("text1").value;
+    var b = document.getElementById("text2").value;
+    var c = add(a, b);
+    document.getElementById("text3").value = c;
+}
+function add(c, d) {
+    return Number(c)+Number(d)
+}
+
+</script>
+</body>
+<html>
