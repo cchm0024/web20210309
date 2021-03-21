@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<script>
+    // method는 object의 function
+    function funcName(param1, param2) {
+        console.log("statemers....");
+    }
+
+    var car = {
+        name: "fiat",
+        model: 500,
+        start: function (param1, param2) {
+            console.log("statmersr......")
+        }
+    }
+
+    console.log(car.name);
+    funcName();
+
+    car.start();
+</script>
+</body>
+</html>

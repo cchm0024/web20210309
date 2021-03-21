@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+화씨 :
+<input type="text" id="in1">
+<button onclick="a2()" id="button1">섭씨로 변환</button>
+<br>
+섭씨 :
+<input type="text" id="in2" readonly="readonly">
+
+<script>
+function a1 (bb) {
+    return (5/9)*(bb-32);
+}
+function a2 () {
+    var f = document.getElementById("in1").value;
+    var b = a1(f);
+    document.getElementById("in2").value = b;
+}
+
+
+</script>
+</body>
+</html>
