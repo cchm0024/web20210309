@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+<script>
+    console.log("boolean")
+
+    var a = true;
+    if (a) {
+        console.log("true");
+    } else {
+        console.log('false');
+    }
+    console.log("number");
+// 0이 아니면 true
+    var b = -3;
+    if (b) {
+        console.log("true")
+    } else {
+        console.log("false")
+    }
+console.log("string")
+// 빈 스트링이 아니면 true
+var c = ''; //<- 빈스트링 ""사이에 아무 내용없으면 빈스트링 (스페이스만 있어도 빈스트링아님)
+
+if (c) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+
+var d; //undefined - > false
+if (d) {
+    console.log("true")
+} else {
+    console.log("false")
+}
+</script>
+</body>
+<html>
