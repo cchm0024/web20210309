@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<style>
+</style>
+</head>
+<body>
+<input type="text">
+
+<button onclick="gh()">앤터</button>
+
+<div id="re"></div>
+
+<script>
+function gh(){
+    var aa = document.querySelector("input").value;
+    var aa = Number(aa);
+
+    txt = "";
+    for ( i = 1; i < 10; i++){
+        txt += aa + "X" + i + "=" + (aa*i) + "<br>";
+    }
+    document.getElementById("re").innerHTML = txt;
+}
+
+</script>
+</body>
+</html>
