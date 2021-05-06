@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+</style>
+<script>
+    $(document).ready(function (){
+        $("h1").click(function (){           
+            var i = $(this).attr("id");
+            console.log(i);
+
+            var c = $(this).attr("my-head");
+            console.log(c);
+
+            var t = $(this).attr("title");
+            console.log(t);
+        });
+        
+    });
+</script>
+</head>
+<body>
+<h1 id="gead1" class="my-head" title="hello"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloremque obcaecati incidunt placeat aliquam earum. Reiciendis soluta quia minima. Tempora ipsa dignissimos et rerum quis, nisi quisquam pariatur corporis sit!</h1>
+</body>
+<html>
