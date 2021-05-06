@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/all.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+</style>
+<script>
+    $(document).ready(function () {
+        $("#div1").click(function (){
+            var t = $("#div1").text();
+            console.log(t);
+        }); //텍스트 정보만 넘겨줌
+
+        $("#div2").click(function (){
+            var h = $("#div2").html();
+            console.log(h);
+        }); //p까지 정보 넘겨줌 
+    })
+</script>
+</head>
+<body>
+<div id="div1">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque earum, consectetur tenetur quisquam ab dolores architecto voluptates ratione magnam nisi ducimus exercitationem quasi suscipit aspernatur ut delectus repudiandae sint dignissimos!</p>
+</div>
+<div id="div2">
+    <p>Error laudantium consequuntur optio eveniet, fuga neque ad beatae nesciunt nam nisi ipsam, perspiciatis recusandae sed consectetur? Veniam rem sint impedit iusto, ut maxime optio ipsam nostrum repellat incidunt facilis!</p>
+</div>
+</body>
+<html>
